@@ -87,6 +87,7 @@ class _ObjectCreatorFormState extends State<ObjectCreatorForm> {
   final List<String> _lectureType = ['Theory', 'Practical', 'Tutorial'];
 
   final _formKey = GlobalKey<FormState>();
+  int copyRowIndex = 0;
   void init() {
     paperData.sort((a, b) => a.paperName.compareTo(b.paperName));
     facultyData.sort((a, b) => a['Faculty Name']?.compareTo(b['Faculty Name']));
@@ -548,10 +549,28 @@ class _ObjectCreatorFormState extends State<ObjectCreatorForm> {
                 const SizedBox(
                   width: 10,
                 ),
+                DropdownButton<int>(
+                  value: copyRowIndex,
+                  onChanged: (int? newValue) {
+                    setState(() {
+                      copyRowIndex = newValue!;
+                    });
+                  },
+                  items: List.generate(_rows.length, (index) => index)
+                      .map((int value) {
+                    return DropdownMenuItem<int>(
+                      value: value,
+                      child: Text('Row ${value + 1}'),
+                    );
+                  }).toList(),
+                ),
+                const SizedBox(
+                  width: 10,
+                ),
                 ElevatedButton(
                   onPressed: () {
                     setState(() {
-                      _rows.add(Map<String, String?>.from(_rows.last));
+                      _rows.add(Map<String, String?>.from(_rows[copyRowIndex]));
                     });
                   },
                   child: const Icon(Icons.copy),

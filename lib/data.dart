@@ -2040,6 +2040,17 @@ List<Paper> paperData = [
   Paper("2342202302", "Data Mining- I"),
   Paper("2344001102", "Programming with Python"),
   Paper("2344002001", "Database Management Systems"),
+  Paper("1", "Algorithms & Advanced Data Structures"),
+  Paper("2", "Data Mining- II"),
+  Paper("3", "Theory Of Computation"),
+  Paper("4", "Software Engineering"),
+  Paper("5", "Machine Learning"),
+  Paper("6", "Elements of Modern Physics"),
+  Paper("7", "Data Mining For Knowledge Discovery"),
+  Paper("8", "Python Programming For Data Handling"),
+  Paper("9", "Heat & Thermodynamics"),
+  Paper("10", "Mechanics"),
+
 
   
 ];
