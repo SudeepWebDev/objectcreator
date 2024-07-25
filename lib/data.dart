@@ -125,114 +125,114 @@ var courseData = [
     'Course Stream': 'SC',
     'Exam Type': 'CBCS NEP'
   },
-  {
-    'Course Code': '510',
-    'Course Name': 'B.A. (Hons.) Economics',
-    'Course Stream': 'ART',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '511',
-    'Course Name': 'B.A. (Hons.) English',
-    'Course Stream': 'ART',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '516',
-    'Course Name': 'B.A. (Hons.) Hindi',
-    'Course Stream': 'ART',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '518',
-    'Course Name': 'B.A. (Hons.) History',
-    'Course Stream': 'ART',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '527',
-    'Course Name': 'B.A. (Hons.) Political Science',
-    'Course Stream': 'ART',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '501',
-    'Course Name': 'B.A. (Prog)',
-    'Course Stream': 'ART',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '504',
-    'Course Name': 'B.Com (Hons.)',
-    'Course Stream': 'COMM',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '503',
-    'Course Name': 'B.Com (Prog.)',
-    'Course Stream': 'COMM',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '584',
-    'Course Name': 'B.Sc. (Applied Physical Sciences - Industrial Chemistry)',
-    'Course Stream': 'SC',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '582',
-    'Course Name': 'B.Sc. Physical Science',
-    'Course Stream': 'SC',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '557',
-    'Course Name': 'B.Sc. (Hons.) Chemistry',
-    'Course Stream': 'SC',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '570',
-    'Course Name': 'B.Sc. (Hons.) Computer Science',
-    'Course Stream': 'SC',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '558',
-    'Course Name': 'B.Sc. (Hons.) Electronic Science',
-    'Course Stream': 'SC',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '563',
-    'Course Name': 'B.Sc. (Hons.) Mathematics',
-    'Course Stream': 'SC',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '567',
-    'Course Name': 'B.Sc. (Hons.) Physics',
-    'Course Stream': 'SC',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '582A',
-    'Course Name': 'B.Sc. Physical Science (Chemistry)',
-    'Course Stream': 'SC',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '582B',
-    'Course Name': 'B.Sc. Physical Science (Computer)',
-    'Course Stream': 'SC',
-    'Exam Type': 'CBCS'
-  },
-  {
-    'Course Code': '582C',
-    'Course Name': 'B.Sc. Physical Science (Electronics)',
-    'Course Stream': 'SC',
-    'Exam Type': 'CBCS'
-  },
+  // {
+  //   'Course Code': '510',
+  //   'Course Name': 'B.A. (Hons.) Economics',
+  //   'Course Stream': 'ART',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '511',
+  //   'Course Name': 'B.A. (Hons.) English',
+  //   'Course Stream': 'ART',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '516',
+  //   'Course Name': 'B.A. (Hons.) Hindi',
+  //   'Course Stream': 'ART',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '518',
+  //   'Course Name': 'B.A. (Hons.) History',
+  //   'Course Stream': 'ART',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '527',
+  //   'Course Name': 'B.A. (Hons.) Political Science',
+  //   'Course Stream': 'ART',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '501',
+  //   'Course Name': 'B.A. (Prog)',
+  //   'Course Stream': 'ART',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '504',
+  //   'Course Name': 'B.Com (Hons.)',
+  //   'Course Stream': 'COMM',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '503',
+  //   'Course Name': 'B.Com (Prog.)',
+  //   'Course Stream': 'COMM',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '584',
+  //   'Course Name': 'B.Sc. (Applied Physical Sciences - Industrial Chemistry)',
+  //   'Course Stream': 'SC',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '582',
+  //   'Course Name': 'B.Sc. Physical Science',
+  //   'Course Stream': 'SC',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '557',
+  //   'Course Name': 'B.Sc. (Hons.) Chemistry',
+  //   'Course Stream': 'SC',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '570',
+  //   'Course Name': 'B.Sc. (Hons.) Computer Science',
+  //   'Course Stream': 'SC',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '558',
+  //   'Course Name': 'B.Sc. (Hons.) Electronic Science',
+  //   'Course Stream': 'SC',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '563',
+  //   'Course Name': 'B.Sc. (Hons.) Mathematics',
+  //   'Course Stream': 'SC',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '567',
+  //   'Course Name': 'B.Sc. (Hons.) Physics',
+  //   'Course Stream': 'SC',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '582A',
+  //   'Course Name': 'B.Sc. Physical Science (Chemistry)',
+  //   'Course Stream': 'SC',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '582B',
+  //   'Course Name': 'B.Sc. Physical Science (Computer)',
+  //   'Course Stream': 'SC',
+  //   'Exam Type': 'CBCS'
+  // },
+  // {
+  //   'Course Code': '582C',
+  //   'Course Name': 'B.Sc. Physical Science (Electronics)',
+  //   'Course Stream': 'SC',
+  //   'Exam Type': 'CBCS'
+  // },
 ];
 
 List<Map<String, dynamic>> facultyData = [
@@ -1604,8 +1604,9 @@ List<Paper> paperData = [
   // Paper("22411602", "GOODS & SERVICES TAX AND CUSTOM LAWS"),
   // Paper("22417601", "FUNDAMENTALS OF INVESTMENT"),
   // Paper("22417602", "CONSUMER AFFAIRS AND CUSTOMERS CARE"),
-  // Paper("2272101201", "INTRODUCTORY MACROECONOMICS"),
-  // Paper("2272101203", "INTERMEDIATE STATISTICS FOR ECONOMICS"),
+  Paper("2272101201", "Introductory Microeconomics"),
+  Paper("2272101202", "Introductory Mathematical Methods For Economics"),
+  Paper("2272101203", "Intermediate Statistics For Economics"),
   // Paper("2272102402", "INTERMEDIATE MACROECONOMICS II: POLICY ISSUES"),
   // Paper("2272102403", "INTRODUCTORY ECONOMETRICS"),
   // Paper("2273102005", "FINANCIAL ECONOMICS"),
@@ -1963,12 +1964,18 @@ List<Paper> paperData = [
   // // Paper("2055091001", "हिंदी भाषा और साहित्य का उद्भव और विकास - हिंदी क"),
   // // Paper("2055091002", "हिंदी भाषा और साहित्य का उद्भव और विकास - हिंदी ख"),
   // // Paper("2055091003", "हिंदी भाषा और साहित्य का उद्भव और विकास - हिंदी ग"),
-  // Paper("2051002001", "व्यावहारिक हिंदी - हिंदी -क"),
-  // // Paper("2051002002", "जनसंचार और रचनात्मक लेखन - हिंदी -ख"),
-  // Paper("2051002003", "हिंदी भाषा और तकनीक - हिंदी- ग"),
-  // Paper("2051001001", "हिंदी भाषा : सम्प्रेषण और संचार - हिंदी क"),
-  // // Paper("2051001002", "हिंदी औपचारिक लेखन - हिंदी ख"),
-  // // Paper("2051001003", "सोशल मीडिया और ब्लॉग लेखन - हिंदी ग"),
+  Paper("2051002001", "व्यावहारिक हिंदी - हिंदी -क"),
+  Paper("2051002002", "जनसंचार और रचनात्मक लेखन - हिंदी -ख"),
+  Paper("2051002003", "हिंदी भाषा और तकनीक - हिंदी- ग"),
+  Paper("2051001001", "हिंदी भाषा : सम्प्रेषण और संचार - हिंदी क"),
+  Paper("2051001002", "हिंदी औपचारिक लेखन - हिंदी ख"),
+  Paper("2051001003", "सोशल मीडिया और ब्लॉग लेखन - हिंदी ग"),
+  Paper("2052101102", "हिंदी साहित्य का इतिहास (आदिकाल एवं मध्यकाल)"),
+  Paper("2052101101", "हिंदी कविता: आदिकाल एवं निर्गुण भक्तिकाल"),
+  Paper("2052102303", "सामान्य भाषा विज्ञान"),
+  Paper("2052102301", "भारतीय साहित्य"),
+  Paper("6967000022", "भारतीय भक्ति परंपरा और मानव मूल्य"),
+  Paper("2052102302", "हिंदी नाटक एवं एकाँकी"),
 
   // // History
   // // Paper("6967000007", "Ethics and Values in Ancient Indian Traditions"),
@@ -2025,34 +2032,92 @@ List<Paper> paperData = [
   // Paper("2342571101", "Programming Fundamentals using C++"),
   // Paper("2342572301", "Computer System Architecture"),
 
+  // Paper("2342011101", "Programming using Python"),
+  // Paper("2342011102", "Computer system Architecture"),
+  // Paper("2342011103", "Mathematics for Computing"),
+  // Paper("2342012301", "Data Structures"),
+  // Paper("2342012302", "Operating Systems"),
+  // Paper("2342012303", "Numerical Optimization"),
+  // Paper("2343012002", "Data Analysis and Visualization"),
+  // Paper("2343012001", "Python Programming for Data Handling"),
+  // Paper("2342571101", "Programming Fundamentals Using C++"),
+  // Paper("2342201102", "Programming Fundamentals using Python"),
+  // Paper("2342572301", "Computer System Architecture"),
+  // Paper("2342202302", "Data Mining- I"),
+  // Paper("2344001102", "Programming with Python"),
+  // Paper("2344002001", "Database Management Systems"),
+  // Paper("1", "Algorithms & Advanced Data Structures"),
+  // Paper("2", "Data Mining- II"),
+  // Paper("3", "Theory Of Computation"),
+  // Paper("4", "Software Engineering"),
+  // Paper("5", "Machine Learning"),
+  // Paper("6", "Elements of Modern Physics"),
+  // Paper("7", "Data Mining For Knowledge Discovery"),
+  // Paper("8", "Python Programming For Data Handling"),
+  // Paper("9", "Heat & Thermodynamics"),
+  // Paper("10", "Mechanics"),
+  // Paper("11", "Circuit Theory & Network Analysis"),
+  // Paper("12", "Semiconductor Devices"),
+  Paper("13", "Environmental Studies"),
+  // Paper("14", "Engineering Mathematics"),
+  // Paper("15", "Analog Electronics"),
+  // Paper("16", "Signals & Systems"),
+  // Paper("17", "Embedded Systems"),
+  // Paper("18", "Electromagnetics"),
+  // Paper("19", "Basic VLSI Design"),
+  // Paper("20", "Quantum & Spintronics Devices"),
+  // Paper("21", "Inorganic Chemistry"),
+  // Paper("22", "Organic Chemistry"),
+  // Paper("23", "Physical Chemistry"),
+  // Paper("24", "Applied Organic Chemistry"),
 
-  Paper("2342011101", "Programming using Python"),
-  Paper("2342011102", "Computer system Architecture"),
-  Paper("2342011103", "Mathematics for Computing"),
-  Paper("2342012301", "Data Structures"),
-  Paper("2342012302", "Operating Systems"),
-  Paper("2342012303", "Numerical Optimization"),
-  Paper("2343012002", "Data Analysis and Visualization"),
-  Paper("2343012001", "Python Programming for Data Handling"),
-  Paper("2342571101", "Programming Fundamentals Using C++"),
-  Paper("2342201102", "Programming Fundamentals using Python"),
-  Paper("2342572301", "Computer System Architecture"),
-  Paper("2342202302", "Data Mining- I"),
-  Paper("2344001102", "Programming with Python"),
-  Paper("2344002001", "Database Management Systems"),
-  Paper("1", "Algorithms & Advanced Data Structures"),
-  Paper("2", "Data Mining- II"),
-  Paper("3", "Theory Of Computation"),
-  Paper("4", "Software Engineering"),
-  Paper("5", "Machine Learning"),
-  Paper("6", "Elements of Modern Physics"),
-  Paper("7", "Data Mining For Knowledge Discovery"),
-  Paper("8", "Python Programming For Data Handling"),
-  Paper("9", "Heat & Thermodynamics"),
-  Paper("10", "Mechanics"),
-
-
-  
+// Paper("2222011103", "Waves & Oscilations"),
+// Paper("2222011101", "Mathematical Physics - I"),
+// Paper("2222011102", "Mechanics"),
+// Paper("2223012001", "Numerical Analysis"),
+// Paper("2223012301", "Mathematical Physics - III"),
+// Paper("2223012303", "Light & Matter"),
+// Paper("2223012302", "Thermal Physics"),
+// Paper("25", "Digital Electronics"),
+// Paper("26", "Quantum Mechanics"),
+// Paper("27", "Electromagnetic Theory"),
+// Paper("28", "Communication System"),
+  Paper("29", "History Of USSR"),
+  Paper("30", "History Of Modern Europe"),
+  Paper("31", "History Of India 1750-1857"),
+  Paper("32", "History Of India 1500-1600"),
+  Paper("33", "भारतीय एवं पाश्चात्य रंगमंच सिद्धांत"),
+  Paper("34", "पाश्चात्य काव्यशास्त्र"),
+  Paper("35", "रचनात्मक लेखन"),
+  Paper("36", "आधुनिक हिंदी कविता"),
+  Paper("2272102302",
+      "Intermediate Macroeconomics I: Foundations Of Aggregate Income Determination"),
+  Paper("2272102301",
+      "Intermediate Microeconomics I: Behavioural Foundations Of Market Interactions"),
+  Paper("2272102303", "Advanced Mathematical Methods For Economics"),
+  Paper("37", "Introductory Development Economics"),
+  Paper("38", "Public Economics"),
+  Paper("39", "Open Economy Macroeconomics"),
+  Paper("40", "Game Theory"),
+  Paper("41", "Economic Growth And Business Cycles"), 
+  Paper("42", "Algebra"),
+  Paper("43", "Elementary Real Analysis"),
+  Paper("44", "Probability And Statistics"),
+  Paper("46", "Discrete Mathematics"),
+  Paper("47", "Group Theory"),
+  Paper("48", "Riemann Integration"),
+  Paper("49", "Ring Theory"),
+  Paper("50", "Partial Differential Equations"),
+  Paper("51", "Metric Space"),
+  Paper("52", "Linear Programming"),
+  Paper("2312102303", "History Of Modern China (1840-1950s)"),
+  Paper("2312102302", "Rise Of The Modern West - I"),
+  Paper("2312102301", "History Of India - III: 750-1200"),
+  Paper("2312101101",
+      "History Of India - I(From The Beginning to Fourth Centure BCE)"),
+  Paper("2312101102",
+      "Social Formations & Cultural Patterns Of The Ancient World-I"),
+  Paper("2312101103", "History Of The USA: Independence To Civil War"),
 ];
 
 var roomData = [
