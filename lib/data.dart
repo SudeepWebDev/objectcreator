@@ -1495,6 +1495,12 @@ List<Map<String, dynamic>> facultyData = [
     "Faculty Name": "Dr. Poornima Tripathi",
     "Faculty Designation": "Assistant Professor",
     "Faculty Department": "Political Science"
+  },
+  {
+    "Faculty Code": 211,
+    "Faculty Name": "ABC",
+    "Faculty Designation": "Assistant Professor",
+    "Faculty Department": "Political Science"
   }
 ];
 
@@ -2099,7 +2105,7 @@ List<Paper> paperData = [
   Paper("38", "Public Economics"),
   Paper("39", "Open Economy Macroeconomics"),
   Paper("40", "Game Theory"),
-  Paper("41", "Economic Growth And Business Cycles"), 
+  Paper("41", "Economic Growth And Business Cycles"),
   Paper("42", "Algebra"),
   Paper("43", "Elementary Real Analysis"),
   Paper("44", "Probability And Statistics"),
@@ -2118,6 +2124,29 @@ List<Paper> paperData = [
   Paper("2312101102",
       "Social Formations & Cultural Patterns Of The Ancient World-I"),
   Paper("2312101103", "History Of The USA: Independence To Civil War"),
+  Paper("2412082301", "Business Mathematics"),
+  Paper("2412082303", "Principles Of Marketing"),
+  Paper("2412082302", "Financial Management"),
+  Paper("2412081103", "Financial Accounting"),
+  Paper("2412081102", "Business Laws"),
+  Paper("2412081101", "Management Principles And Applications"),
+  Paper("2412091101", "Business Organisation And Management"),
+  Paper("2412091102", "Business Laws"),
+  Paper("2412091103", "Financial Accounting"),
+  Paper("2412092301", "Business Statistics"),
+  Paper("2412092303", "Principles Of Marketing"),
+  Paper("2412092302", "Financial Management"),
+  Paper("2032101101", "Introduction To Literary Studies"),
+  Paper("2032101102", "European Classical Literature"),
+  Paper("2032101103", "Indian Classical Literature"),
+  Paper("2032102301", "Romantic Literature"),
+  Paper("2032102302", "Victorian Literature"),
+  Paper("2032102303", "Literary Criticism"),
+  Paper("2033102001", "Literature And Cinema"),
+  Paper("5300000001", "20th Century Poetry And Drama"),
+  Paper("5300000002", "20th Century Novel"),
+  Paper("5300000003", "Dalit Writings"),
+  Paper("5300000004", "Partition Literature"),
 ];
 
 var roomData = [
