@@ -6,7 +6,7 @@
 `objcreator.web.app` is a web application designed to create JSON objects for managing and uploading timetables. This tool ensures that timetables are organized and standardized.
 
 #### Getting Started
-1. **Visit the Website**: Open `[objcreator.web.app](http://objcreator.web.app)` in your web browser.
+1. **Visit the Website**: Open [objcreator.web.app](http://objcreator.web.app) in your web browser.
 
 #### Features
 - **Paper Management**:
