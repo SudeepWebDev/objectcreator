@@ -1,24 +1,23 @@
+### User Documentation for Object Creator
 
-
-### Documentation for objcreator.web.app
-
-#### Overview
 `objcreator.web.app` is a web application designed to create JSON objects for managing and uploading timetables. This tool ensures that timetables are organized and standardized.
 
 #### Getting Started
 1. **Visit the Website**: Open [objcreator.web.app](http://objcreator.web.app) in your web browser.
 
 #### Features
+
 - **Paper Management**:
-  - **Add Paper**: Takes two inputs—Paper Code (must be unique and above 100) and Paper Name. This step is done before creating objects.
-- **Generate Object Button**: Generates a JSON object for the timetable.
+  - **Add Paper**: Takes two inputs—Paper Code (must be unique) and Paper Name. This step is done before creating objects.
+
 - **Faculty Selection**: If no matching faculty is found, select "ABC." If there is no Faculty 2 in the timetable, you don’t need to select anything.
-- **Timetable Management**: Fields like GE, SEC, and VAC are managed separately.
+
+- **Timetable Management**: Fields like GE, SEC, and VAC are not required.
 
 #### User Interface
 
 1. **Paper Addition**
-   - **Paper Code**: Must be unique and above 100.
+   - **Paper Code**: Must be unique.
    - **Paper Name**: Add or select the paper name.
 
 2. **Row Management**
@@ -29,51 +28,116 @@
 3. **Input Fields for Timetable**
    - **Day/Time**: Specify the day and time.
    - **Lecture Type**: Select the type of lecture.
-   - **Faculty (1-4)**: Add faculty members, defaulting to "ABC" if no match is found. If there is no Faculty 2, 3, or 4, you can leave them blank.
+   - **Faculty Addition (+ Button)**: Adds up to four faculty members per row.
    - **Room Number**: Specify the room number.
 
-4. **Generating Objects**
+4. **Group Management**
+   - **Add Group Button**: Adds a group entry with a group name and corresponding room and faculty number (formatted as Room Number@Faculty Number). Multiple faculties should be separated by a dash (-). The numbers refer to the corresponding faculty number.
+
+   **Example for Group Management**: 
+   - **Single Faculty**: 102@1 (means room 102 with Faculty 1)
+   - **Multiple Faculties**: 102@1-2 (means room 102 with Faculty 1 and Faculty 2)
+
+5. **Additional Features**
+   - **Additional Papers**: Each main row can have up to two more papers. Each added paper will have a remove (–) button to discard it.
+
+6. **Generating Objects**
    - **Generate Objects Button**: After filling all required fields, click this button to generate JSON objects.
    - **Copying JSON**: Copy the generated JSON object and include it along with course section and semester.
 
-#### Handling Special Cases
+#### Examples
 
-**Simultaneous Papers**: When two or more papers occur at the same time on the same day, create a separate JSON object for each paper. For example:
+**Example 1: Adding a Paper**
+1. Enter a unique Paper Code (e.g., 101).
+2. Enter the Paper Name (e.g., Theory of Computation).
+3. Click "Add Paper".
+
+**Example 2: Creating a Timetable Entry**
+1. Select the Day (e.g., Monday).
+2. Select the Time (e.g., 09:30).
+3. Select the Lecture Type (e.g., Theory).
+4. Add Faculty (e.g., Dr. Shalini Ma'am). Use the + button to add more faculty members.
+5. Enter the Room Number (e.g., 101).
+6. Click "Generate Objects".
+
+**Generated JSON:**
 ```json
 [
   {
     "Day": "Monday",
     "Time": "09:30",
-    "Paper Name": "सामान्य भाषा विज्ञान",
+    "Paper Name": "Theory of Computation",
     "Lecture Type": "Theory",
-    "Faculty 1": "Prof. Rajesh Chand Adarsh",
-    "Room Number": "05"
-  },
-  {
-    "Day": "Monday",
-    "Time": "09:30",
-    "Paper Name": "हिंदी नाटक एवं एकाँकी",
-    "Lecture Type": "Theory",
-    "Faculty 1": "Dr. Rashmi Bahl",
-    "Room Number": "05"
+    "Faculty 1": "Dr. Shalini Ma'am",
+    "Room Number": "101"
   }
 ]
 ```
 
-**Grouped Timetables**: For groups in the timetable, objects are not created using `objcreator.web.app` at this stage. These need to be managed separately. Ensure that this information is communicated to the relevant stakeholders.
+**Example 3: Adding Groups (Single Faculty)**
+1. Enter Group Name (e.g., Group A).
+2. Enter Room Number and Faculty Number (e.g., 102@1).
+3. Click "Add Group".
 
-### Note:
+**Generated JSON with Group (Single Faculty):**
+```json
+[
+  {
+    "Day": "Monday",
+    "Time": "09:30",
+    "Paper Name": "Theory of Computation",
+    "Lecture Type": "Theory",
+    "Faculty 1": "Dr. Shalini Ma'am",
+    "Room Number": "101",
+    "Grp Name": ["Group A"],
+    "Group A": "102@1"
+  }
+]
+```
+
+**Example 4: Adding Groups (Multiple Faculties)**
+1. Enter Group Name (e.g., Group B).
+2. Enter Room Number and Faculty Number (e.g., 102@1-2).
+3. Click "Add Group".
+
+**Generated JSON with Group (Multiple Faculties):**
+```json
+[
+  {
+    "Day": "Monday",
+    "Time": "09:30",
+    "Paper Name": "Theory of Computation",
+    "Lecture Type": "Theory",
+    "Faculty 1": "Dr. Shalini Ma'am",
+    "Room Number": "101",
+    "Grp Name": ["Group B"],
+    "Group B": "102@1-2"
+  }
+]
+```
+
+**Example 5: Adding Additional Papers**
+1. After creating a timetable entry, click the add button to include another paper (e.g., 102).
+2. Enter the Paper Name (e.g., Software Engineering) and other relevant details.
+3. Click the remove (–) button to discard the additional paper if necessary.
+
+**Generated JSON with Additional Papers:**
+```json
+[
+  {
+    "Day": "Monday",
+    "Time": "09:30",
+    "Paper Name": "Theory of Computation",
+    "Lecture Type": "Theory",
+    "Faculty 1": "Dr. Shalini Ma'am",
+    "Room Number": "101",
+    "Paper Name_2": "Software Engineering",
+    "Lecture Type_2": "Theory",
+    "Faculty 1_2": "Ms. Uma Ojha",
+    "Room Number_2": "102"
+  }
+]
+```
+
+#### Note:
 - Always ensure that the correct information is inputted for each paper to maintain reliability.
-- Continuously update the documentation as the tool evolves to handle more complex cases like grouped timetables.
-
-#### Troubleshooting
-- **Common Issues**: Ensure all fields are filled out correctly, especially unique codes.
-- **FAQs**: Provide a list of frequently asked questions and answers.
-
-#### Contributing
-- **How to Contribute**: Steps on how to contribute to the project.
-- **Code of Conduct**: Guidelines for contributors.
-
-#### License
-- **Project License**: Details about the project's license.
-
