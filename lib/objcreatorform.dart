@@ -25,6 +25,7 @@ class _ObjectCreatorFormState extends State<ObjectCreatorForm> {
     }
   ];
 
+
   List<Map<String, String?>> allRows = [];
   final _formKey = GlobalKey<FormState>();
   final TextEditingController paperCodeController = TextEditingController();
@@ -122,7 +123,8 @@ class _ObjectCreatorFormState extends State<ObjectCreatorForm> {
   }
 
   Widget _buildMobileRow(int i) {
-    return Wrap(
+    return Column(
+      mainAxisSize: MainAxisSize.min,
       children: _buildFields(i),
     );
   }
@@ -185,7 +187,7 @@ class _ObjectCreatorFormState extends State<ObjectCreatorForm> {
   }
 
   Widget buildDropdownField(int i, String field, List<String> items) {
-    return Expanded(
+    return Flexible(
       child: DropdownButtonFormField<String>(
         value: _rows[i][field],
         items: items.map((String value) {
