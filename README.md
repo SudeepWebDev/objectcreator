@@ -2,6 +2,27 @@
 
 `objcreator.web.app` is a web application designed to create JSON objects for managing and uploading timetables. This tool ensures that timetables are organized and standardized.
 
+#### Table of Contents
+1. [Getting Started](#getting-started)
+2. [Features](#features)
+   - [Paper Management](#paper-management)
+   - [Faculty Selection](#faculty-selection)
+   - [Timetable Management](#timetable-management)
+3. [User Interface](#user-interface)
+   - [Paper Addition](#paper-addition)
+   - [Row Management](#row-management)
+   - [Input Fields for Timetable](#input-fields-for-timetable)
+   - [Group Management](#group-management)
+   - [Additional Features](#additional-features)
+   - [Generating Objects](#generating-objects)
+4. [Examples](#examples)
+   - [Example 1: Adding a Paper](#example-1-adding-a-paper)
+   - [Example 2: Creating a Timetable Entry](#example-2-creating-a-timetable-entry)
+   - [Example 3: Adding Groups (Single Faculty)](#example-3-adding-groups-single-faculty)
+   - [Example 4: Adding Groups (Multiple Faculties)](#example-4-adding-groups-multiple-faculties)
+   - [Example 5: Adding Additional Papers](#example-5-adding-additional-papers)
+5. [Note](#note)
+
 #### Getting Started
 1. **Visit the Website**: Open [objcreator.web.app](http://objcreator.web.app) in your web browser.
 
@@ -32,11 +53,14 @@
    - **Room Number**: Specify the room number.
 
 4. **Group Management**
-   - **Add Group Button**: Adds a group entry with a group name and corresponding room and faculty number (formatted as Room Number@Faculty Number). Multiple faculties should be separated by a dash (-). The numbers refer to the corresponding faculty number.
-
-   **Example for Group Management**: 
-   - **Single Faculty**: 102@1 (means room 102 with Faculty 1)
-   - **Multiple Faculties**: 102@1-2 (means room 102 with Faculty 1 and Faculty 2)
+   - **Add Group Button**:
+     - **Group Name**: Enter a name for the group.
+     - **Room and Faculty Number**: Enter the room number followed by the corresponding faculty number(s) (formatted as Room Number@Faculty Number). Multiple faculties should be separated by a dash (-). The numbers refer to the corresponding faculty number.
+     - **Remove Group Button**: Removes the group entry.
+     
+     **Example for Group Management**: 
+     - **Single Faculty**: 102@1 (means room 102 with Faculty 1)
+     - **Multiple Faculties**: 102@1-2 (means room 102 with Faculty 1 and Faculty 2)
 
 5. **Additional Features**
    - **Additional Papers**: Each main row can have up to two more papers. Each added paper will have a remove (–) button to discard it.
@@ -141,3 +165,8 @@
 
 #### Note:
 - Always ensure that the correct information is inputted for each paper to maintain reliability.
+- Continuously update the documentation as the tool evolves to handle more complex cases like grouped timetables.
+
+For a complete guide, refer to the [README.md](https://github.com/SudeepWebDev/objectcreator/blob/main/README.md) in the repository.
+
+How does it look now? Ready to roll?
