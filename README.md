@@ -165,7 +165,6 @@
 
 #### Note:
 - Always ensure that the correct information is inputted for each paper to maintain reliability.
-- Continuously update the documentation as the tool evolves to handle more complex cases like grouped timetables.
 
 For a complete guide, refer to the [README.md](https://github.com/SudeepWebDev/objectcreator/blob/main/README.md) in the repository.
 
