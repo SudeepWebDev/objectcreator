@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'data.dart';
+import 'drawer.dart';
 // import 'package:autocomplete_textfield/autocomplete_textfield.dart';
 
 void main() {
@@ -42,6 +43,7 @@ class _ObjectCreatorFormState extends State<ObjectCreatorForm> {
       'Room Number': null,
     }
   ];
+
   final List<String> _mapCollections = [
     'Papers',
     'Faculties',
@@ -108,6 +110,7 @@ class _ObjectCreatorFormState extends State<ObjectCreatorForm> {
       appBar: AppBar(
         title: const Text('Object Creator'),
       ),
+      drawer: const ObjDrawer(),
       body: Form(
         key: _formKey,
         child: ListView(
